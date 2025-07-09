@@ -44,19 +44,34 @@
       </div>
     </div>
     
-    <!-- Visual/Image -->
+    <!-- Visual/Video -->
     <div class="relative">
       <div class="bg-gradient-to-br from-kflow-cyan/20 to-kflow-blue/20 rounded-2xl p-8 backdrop-blur-sm border border-white/10">
         <div class="aspect-video rounded-lg overflow-hidden shadow-2xl">
-          <!-- Google Drive Video con parámetros de autoplay -->
-          <iframe 
-            class="w-full h-full" 
-            src="https://drive.google.com/file/d/1ia_5h9vQxV9GPi7vS-JOSK0yZx-ZNP0n/preview?start=1" 
-            title="Sistema K-FLOW en acción" 
-            frameborder="0" 
-            allow="autoplay; encrypted-media; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+          <!-- Video Local -->
+          <video 
+            class="w-full h-full object-cover" 
+            controls
+            muted
+            autoplay
+            loop
+            preload="auto"
+            poster={`${import.meta.env.BASE_URL}images/kflow-logo.svg`}>
+            <source src={`${import.meta.env.BASE_URL}videos/kflow-demo.mp4`} type="video/mp4">
+            <source src={`${import.meta.env.BASE_URL}videos/kflow-demo.webm`} type="video/webm">
+            <!-- Fallback si el video no carga -->
+            <div class="w-full h-full bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
+              <div class="text-center text-white">
+                <div class="w-20 h-20 mx-auto mb-4 bg-gradient-to-r from-kflow-cyan to-kflow-blue rounded-full flex items-center justify-center">
+                  <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+                <p class="text-lg font-semibold mb-2">Video demo próximamente</p>
+                <p class="text-sm opacity-80">Sistema K-FLOW en desarrollo</p>
+              </div>
+            </div>
+          </video>
         </div>
       </div>
       
