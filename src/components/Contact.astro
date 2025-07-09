@@ -1,0 +1,182 @@
+---
+---
+
+<section id="contacto" class="py-20 bg-kflow-dark text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold mb-4">
+        ¿Listo para Transformar tu Proceso de Titulación?
+      </h2>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+        Contáctanos para obtener más información sobre K-FLOW o solicitar una demostración personalizada
+      </p>
+    </div>
+    
+    <div class="grid lg:grid-cols-2 gap-16">
+      <!-- Contact Form -->
+      <div class="bg-white/5 rounded-2xl p-8 backdrop-blur-sm border border-white/10">
+        <h3 class="text-2xl font-bold mb-6">Solicitar Información</h3>
+        <form class="space-y-6" id="contactForm">
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label for="nombre" class="block text-sm font-medium text-gray-300 mb-2">Nombre Completo</label>
+              <input type="text" id="nombre" name="nombre" required class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-kflow-blue focus:ring-1 focus:ring-kflow-blue" placeholder="Tu nombre completo">
+            </div>
+            <div>
+              <label for="cargo" class="block text-sm font-medium text-gray-300 mb-2">Cargo/Posición</label>
+              <select id="cargo" name="cargo" required class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:border-kflow-blue focus:ring-1 focus:ring-kflow-blue">
+                <option value="" class="text-gray-800">Seleccionar cargo</option>
+                <option value="estudiante" class="text-gray-800">Estudiante/Egresado</option>
+                <option value="administrativo" class="text-gray-800">Personal Administrativo</option>
+                <option value="coordinador" class="text-gray-800">Coordinador Académico</option>
+                <option value="otro" class="text-gray-800">Otro</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Correo Electrónico</label>
+              <input type="email" id="email" name="email" required class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-kflow-blue focus:ring-1 focus:ring-kflow-blue" placeholder="tu@email.com">
+            </div>
+            <div>
+              <label for="telefono" class="block text-sm font-medium text-gray-300 mb-2">Teléfono (Opcional)</label>
+              <input type="tel" id="telefono" name="telefono" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-kflow-blue focus:ring-1 focus:ring-kflow-blue" placeholder="+51 999 999 999">
+            </div>
+          </div>
+          
+          <div>
+            <label for="interes" class="block text-sm font-medium text-gray-300 mb-2">¿Qué te interesa?</label>
+            <div class="grid md:grid-cols-2 gap-4">
+              <label class="flex items-center space-x-3 cursor-pointer">
+                <input type="checkbox" name="interes[]" value="demo" class="w-4 h-4 text-kflow-blue bg-white/10 border-white/20 rounded focus:ring-kflow-blue focus:ring-2">
+                <span class="text-gray-300">Solicitar Demo</span>
+              </label>
+              <label class="flex items-center space-x-3 cursor-pointer">
+                <input type="checkbox" name="interes[]" value="manuales" class="w-4 h-4 text-kflow-blue bg-white/10 border-white/20 rounded focus:ring-kflow-blue focus:ring-2">
+                <span class="text-gray-300">Descargar Manuales</span>
+              </label>
+              <label class="flex items-center space-x-3 cursor-pointer">
+                <input type="checkbox" name="interes[]" value="tutoriales" class="w-4 h-4 text-kflow-blue bg-white/10 border-white/20 rounded focus:ring-kflow-blue focus:ring-2">
+                <span class="text-gray-300">Ver Tutoriales</span>
+              </label>
+              <label class="flex items-center space-x-3 cursor-pointer">
+                <input type="checkbox" name="interes[]" value="implementacion" class="w-4 h-4 text-kflow-blue bg-white/10 border-white/20 rounded focus:ring-kflow-blue focus:ring-2">
+                <span class="text-gray-300">Información de Implementación</span>
+              </label>
+            </div>
+          </div>
+          
+          <div>
+            <label for="mensaje" class="block text-sm font-medium text-gray-300 mb-2">Mensaje (Opcional)</label>
+            <textarea id="mensaje" name="mensaje" rows="4" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-kflow-blue focus:ring-1 focus:ring-kflow-blue" placeholder="Cuéntanos más sobre tus necesidades..."></textarea>
+          </div>
+          
+          <button type="submit" class="w-full bg-gradient-to-r from-kflow-cyan to-kflow-blue text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+            Enviar Solicitud
+          </button>
+        </form>
+      </div>
+      
+      <!-- Contact Info -->
+      <div class="space-y-8">
+        <div>
+          <h3 class="text-2xl font-bold mb-6">Información de Contacto</h3>
+          <div class="space-y-6">
+            <div class="flex items-start space-x-4">
+              <div class="w-12 h-12 bg-kflow-blue/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-kflow-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-4m-5 0H9m-5 0h2m0 0V9a2 2 0 012-2h2a2 2 0 012 2v10"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-lg font-semibold mb-1">Pontificia Universidad Católica del Perú</h4>
+                <p class="text-gray-300">Av. Universitaria 1801, San Miguel 15088, Lima - Perú</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start space-x-4">
+              <div class="w-12 h-12 bg-kflow-cyan/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-kflow-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-lg font-semibold mb-1">Correo Electrónico</h4>
+                <p class="text-gray-300">kflow@pucp.edu.pe</p>
+                <p class="text-gray-300">grupo4.kflow@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start space-x-4">
+              <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-lg font-semibold mb-1">Horario de Atención</h4>
+                <p class="text-gray-300">Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+                <p class="text-gray-300">Sábados: 9:00 AM - 1:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Team Info -->
+        <div class="bg-white/5 rounded-2xl p-6 backdrop-blur-sm border border-white/10">
+          <h4 class="text-xl font-semibold mb-4">Equipo de Desarrollo</h4>
+          <div class="flex items-center space-x-3 mb-4">
+            <img src="/images/kflow-logo.svg" alt="K-FLOW" class="w-10 h-10 rounded-full">
+            <div>
+              <p class="font-semibold">Grupo 4 - K-FLOW PUCP</p>
+              <p class="text-sm text-gray-400">Sistema de Automatización de Tesis</p>
+            </div>
+          </div>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            Desarrollado por estudiantes de la PUCP como proyecto de automatización de procesos académicos, 
+            enfocado en mejorar la eficiencia del proceso de sustentación de tesis.
+          </p>
+        </div>
+        
+        <!-- Quick Actions -->
+        <div class="grid md:grid-cols-2 gap-4">
+          <a href="#demo" class="bg-kflow-blue/20 hover:bg-kflow-blue/30 border border-kflow-blue/30 rounded-lg p-4 text-center transition-all duration-300">
+            <svg class="w-8 h-8 text-kflow-blue mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1.01M15 10h1.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <p class="font-semibold">Demo en Vivo</p>
+          </a>
+          <a href="#manuales" class="bg-kflow-cyan/20 hover:bg-kflow-cyan/30 border border-kflow-cyan/30 rounded-lg p-4 text-center transition-all duration-300">
+            <svg class="w-8 h-8 text-kflow-cyan mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+            <p class="font-semibold">Descargar Manual</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById('contactForm') as HTMLFormElement;
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Aquí puedes agregar la lógica para enviar el formulario
+      // Por ahora, solo mostramos un mensaje de confirmación
+      
+      const formData = new FormData(form);
+      const data = Object.fromEntries(formData.entries());
+      
+      // Simular envío
+      setTimeout(() => {
+        alert('¡Gracias por tu interés! Nos pondremos en contacto contigo pronto.');
+        form.reset();
+      }, 500);
+    });
+  }
+</script>
