@@ -1,47 +1,101 @@
-# Astro Starter Kit: Minimal
+# K-FLOW PUCP - Landing Page
 
-```sh
-npm create astro@latest -- --template minimal
+## 🎓 Descripción
+
+Landing page para **K-FLOW**, un sistema automatizado desarrollado para la Pontificia Universidad Católica del Perú que optimiza y agiliza cada paso del proceso de sustentación de tesis.
+
+## 🚀 Tecnologías Utilizadas
+
+- **Astro** - Framework moderno para sitios web estáticos
+- **Tailwind CSS** - Framework de CSS utilitario
+- **TypeScript** - Tipado estático para JavaScript
+- **HTML5 & CSS3** - Tecnologías web estándar
+
+## 📋 Características del Sistema K-FLOW
+
+### ✨ Beneficios Principales
+
+- **Pronta atención a solicitudes** - Identificación inmediata del estado del trámite
+- **Rápida validación de documentos** - Validación automática y centralizada
+- **Consulta de estado sin búsquedas** - Acceso directo e inmediato
+- **Reportes en tiempo real** - Información precisa sin tiempo adicional
+- **Coordinación eficiente** - Comunicación optimizada entre usuarios
+- **Automatización inteligente** - Asignación automática y programación eficiente
+
+### 🔧 Funcionalidades Técnicas
+
+- Agiliza las aprobaciones mediante flujos automatizados
+- Asigna asesores automáticamente según criterios definidos
+- Registra y valida tesis de forma centralizada
+- Facilita la programación eficiente del jurado con fechas y horas establecidas
+
+## 🎯 Público Objetivo
+
+- **Estudiantes egresados** - Usuarios principales del sistema
+- **Personal administrativo** - Gestores del proceso de titulación
+- **Coordinadores académicos** - Supervisores del proceso
+- **Asesores y jurados** - Participantes en la evaluación
+
+## 🛠️ Desarrollo Local
+
+### Prerrequisitos
+
+- Node.js 18+
+- npm o yarn
+
+### Instalación y Ejecución
+
+```bash
+# Navegar al directorio del proyecto
+cd kpucp
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+### Scripts Disponibles
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+| Comando           | Acción                                            |
+| :---------------- | :------------------------------------------------ |
+| `npm install`     | Instala las dependencias                          |
+| `npm run dev`     | Inicia servidor de desarrollo en `localhost:4321` |
+| `npm run build`   | Construye el sitio para producción en `./dist/`   |
+| `npm run preview` | Vista previa de la build de producción            |
 
-## 🚀 Project Structure
+## 📱 Secciones de la Landing Page
 
-Inside of your Astro project, you'll see the following folders and files:
+1. **Hero Section** - Presentación principal con propuesta de valor
+2. **Beneficios** - Ventajas clave del sistema
+3. **Características** - Funcionalidades técnicas detalladas
+4. **Recursos** - Demo, manuales, tutoriales y soporte
+5. **Contacto** - Formulario y información de contacto
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 📞 Acciones de Contacto
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+La landing page incluye múltiples llamadas a la acción:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- **Solicitar Demo** - Demostración interactiva del sistema
+- **Descargar Manuales** - Documentación completa para usuarios
+- **Ver Tutoriales** - Videos explicativos paso a paso
+- **Contactar Soporte** - Asistencia técnica especializada
 
-Any static assets, like images, can be placed in the `public/` directory.
+## � Equipo de Desarrollo
 
-## 🧞 Commands
+**Grupo 4 - K-FLOW PUCP**
 
-All commands are run from the root of the project, from a terminal:
+- Proyecto desarrollado por estudiantes de la PUCP
+- Enfoque en automatización de procesos académicos
+- Especialización en mejora de eficiencia en sustentación de tesis
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 📧 Contacto
 
-## 👀 Want to learn more?
+- **Email**: kflow@pucp.edu.pe
+- **Email del equipo**: grupo4.kflow@gmail.com
+- **Institución**: Pontificia Universidad Católica del Perú
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+
+© 2025 K-FLOW PUCP - Grupo 4. Desarrollado para la Pontificia Universidad Católica del Perú.
