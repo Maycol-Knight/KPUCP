@@ -77,7 +77,7 @@ npm run dev
 
 La landing page incluye múltiples llamadas a la acción:
 
-- **Solicitar Demo** - Demostración interactiva del sistema
+- **Comenzar Proceso** - Enlace directo al formulario de automatización
 - **Descargar Manuales** - Documentación completa para usuarios
 - **Ver Tutoriales** - Videos explicativos paso a paso
 - **Contactar Soporte** - Asistencia técnica especializada
